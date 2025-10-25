@@ -1,0 +1,30 @@
+# .gitignore para projeto IntelliJ IDEA (em português)
+# Ignorar arquivos específicos do IDE que são pessoais/temporários
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/usage.statistics.xml
+/.idea/dictionaries/
+/.idea/*_local.xml
+
+# É comum ignorar diretórios de build/output
+/out/
+/bin/
+/target/
+
+# Arquivos de configuração locais
+*.iml
+
+# Classes compiladas
+*.class
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do OneDrive (opcional)
+~$*
+
+# README
+# Observação: mantenha em controle de versão os arquivos de configuração do projeto que
+# você queira compartilhar (por exemplo: misc.xml, modules.xml, facaderp.iml) e ignore apenas
+# os que contêm dados sensíveis/locais (workspace, histórico de tarefas, caches).
